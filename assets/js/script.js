@@ -1,7 +1,19 @@
-// Exemplo de script básico para interatividade
-document.addEventListener("DOMContentLoaded", () => {
-  const button = document.querySelector("#hero button");
-  button.addEventListener("click", () => {
-      alert("Saiba mais sobre nosso projeto!");
-  });
-});
+/*=============== SHOW MENU ===============*/
+
+
+/*=============== REMOVE MENU MOBILE ===============*/
+
+
+/*=============== CHANGE BACKGROUND HEADER ===============*/
+
+
+/*=============== SHOW SCROLL UP ===============*/ 
+
+
+/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+
+
+/*=============== DARK LIGHT THEME ===============*/ 
+
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
