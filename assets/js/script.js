@@ -28,7 +28,13 @@ const linkAction = () => {
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
-
+const scrollHeader = () => {
+    const heaader = document.getElementById('header');
+    // When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
+    this.scrollY >= 50 ? Headers.classList.add('bg-header')
+    : Headers.classlist.remove('bg-header');
+}
+window.addEventListener('scroll', scrollHeader);
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
